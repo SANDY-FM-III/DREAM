@@ -9,7 +9,6 @@ class script(object):
 Cʜᴇᴄᴋ Tʜᴇꜱᴇ Hᴇʟᴘ Cᴏᴍᴍᴀɴᴅs 👇.</b>"""
 
     ABOUT_TXT = """<b><i>👨‍💻 ᴏᴡɴᴇʀ : <a href=https://t.me/Nexus_Shubhu><b>𝗦𝗛𝗨𝗕𝗛𝗔𝗠</b></a>\n
-🦸‍♀️ ᴄᴏ-ᴏᴡɴᴇʀ : <a href=https://t.me/lostbaby69><b>𝐋𝐨𝐬𝐭 𝐁𝐚𝐛𝐲<b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org><b>ᴘʏᴛʜᴏɴ</b></a>\n
 📚 ʟɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram/pyrogram><b>ᴘʏʀᴏɢʀᴀᴍ</b></a>\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : <a href=vultr.com><b>ᴠᴘꜱ</b></a>\n
