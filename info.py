@@ -91,7 +91,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 BLACKLIST_WORDS = (
     list(os.environ.get("BLACKLIST_WORDS").split(","))
-    if os.environ.get("BLACKLIST_WORDS")
+    if environ.get("BLACKLIST_WORDS")
     else []
 )
 
