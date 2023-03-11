@@ -1,6 +1,6 @@
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
-from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, SHORTLINK_URL, SHORTLINK_API, LOG_CHANNEL
+from info import *
 from imdb import Cinemagoer 
 import asyncio
 from pyrogram.types import Message, InlineKeyboardButton
@@ -58,6 +58,17 @@ async def is_subscribed(bot, query):
             return True
 
     return False
+
+def replace_username(text):
+    prohibitedWords = BLACKLIST_WORDS
+    big_regex = re.compile('|'.join(map(re.escape, prohibitedWords)))
+    text = big_regex.sub("", text)
+
+    usernames = re.findall("([@][A-Za-z0-9_]+)", text)
+    for i in usernames:
+        text = text.replace(i, "")
+
+    return text
 
 async def get_poster(query, bulk=False, id=False, file=None):
     if not id:
