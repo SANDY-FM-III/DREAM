@@ -88,3 +88,11 @@ LOG_STR += ("Long IMDB storyline enabled." if LONG_IMDB_DESCRIPTION else "LONG_I
 LOG_STR += ("Spell Check Mode Is Enabled, bot will be suggesting related movies if movie not found\n" if SPELL_CHECK_REPLY else "SPELL_CHECK_REPLY Mode disabled\n")
 LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST_ELM} elements\n" if MAX_LIST_ELM else "Full List of casts and crew will be shown in imdb template, restrict them by adding a value to MAX_LIST_ELM\n")
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
+
+BLACKLIST_WORDS = (
+    list(os.environ.get("BLACKLIST_WORDS").split(","))
+    if os.environ.get("BLACKLIST_WORDS")
+    else []
+)
+
+BLACKLIST_WORDS = ["@MoviesHouse8", "[D&O]", "[MM]", "[]", "[FC]", "[CF]", "LinkZz", "[DFBC]", "@New_Movie", "@Infinite_Movies2", "MM", "@R A R B G", "[F&T]", "[KMH]", "[DnO]", "[F&T]", "MLM", "@TM_LMO", "@x265_E4E", "@HEVC_MoviesZ", "SSDMovies", "@MM_Linkz", "[CC]", "@Mallu_Movies", "@DK Drama", "@luxmv_Linkz", "@Akw_links", "CK_HEVC", "@Team_HDT", "[CP]", "www 1TamilMV men", "@TamilMob_LinkZz", "@GreyMatter_Bots", "@Forever_Bros", "@TamilMvmovies2Tunnel", "@TEAM_HD4K", "@MoviezzClub", "PFM", "[GorGom]", "4U", "www", "1TamilMV", "[FHM]", "@CC", "[CF]", "MLM", "themoviesboss", "@AM_linkzz", "[MF]", "[CVM]", "[PM]", "[MM]", "aFilmywap", "[MSM]", "FG", "@Mj_Linkz", "MCArchives", "[MASHOBUC]", "[MABLG]", "Bros", "[YDF]", "HEBC", "LINKS", "www_1TamilMV_men", "Linkz", "HEVC", "[MoviesNowTamil]", "7HitMovies", "linkzz", "[JP]", "[CD]", "HD4K", "[CD]", "@MM", "[DC]", "DC", "[AnimeRG]", "[CNT]", "Moviez", "TheMoviesBoss", "bros", "Movies", "1stOnNet", "[TIF]", "()", "[MF]", "[WC]", "ғαιвεяsgαтє", "TF", "E4E", "X265", "autos", "[HCN]", "KC", "[KC]", "[Movieshd121]", "[CNT]", "Download", "[MS]", "[WMJ]", "links", "[Movie_Bazar]", "S_1", "[MF]", "[MJ]", "Filmy4cab", "24X7", "[MJ]", "M_D_B", "[Nep_Blanc]", "HDT", "tv", "M_D_B_", "wdll", "[FN]", "[mwkOTT]", "LinkZ", "MABLG_", "[MW]", "[MH]", "[Movie_Bazar]", "Links", "media", "TamilHDRip", "[MwK]", "{KMH}", "[M5]", "[A2MOVIES]", "@Movierockerzs"]
