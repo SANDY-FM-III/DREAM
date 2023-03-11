@@ -1,4 +1,5 @@
 import re
+import os
 from os import environ
 from Script import script 
 
@@ -91,7 +92,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 BLACKLIST_WORDS = (
     list(os.environ.get("BLACKLIST_WORDS").split(","))
-    if environ.get("BLACKLIST_WORDS")
+    if os.environ.get("BLACKLIST_WORDS")
     else []
 )
 
