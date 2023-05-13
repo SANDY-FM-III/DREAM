@@ -38,10 +38,10 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('Help ⚡', url=f"https://t.me/{temp.U_NAME}?start=help"),
-                    InlineKeyboardButton('My Channel 👀', url='https://t.me/moviesss4ers')
+                    InlineKeyboardButton('🌺 ʜᴇʟᴘ ✨', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                    InlineKeyboardButton('✨ ᴍʏ ᴄʜᴀɴɴᴇʟ ᴜ', url='https://t.me/filmy_men')
                  ],[
-                    InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Nexus_Shubhu")
+                    InlineKeyboardButton("ʙᴏᴛ ᴏᴡɴᴇʀ", url="t.me/syrus_143_hpy")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -61,10 +61,10 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('Help ⚡', url=f"https://t.me/{temp.U_NAME}?start=help"),
-                                                                           InlineKeyboardButton('My Channel 👀', url='https://t.me/moviesss4ers')
+                                                                           InlineKeyboardButton('🌺 ʜᴇʟᴘ ✨', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                                                                           InlineKeyboardButton('✨ ᴍʏ ᴄʜᴀɴɴᴇʟ 💕', url='https://t.me/filmy_men')
                                                                         ],[
-                                                                           InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Nexus_Shubhu")
+                                                                           InlineKeyboardButton("ʙᴏᴛ ᴏᴡɴᴇʀ", url="t.me/syrus_143_hpy")
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
