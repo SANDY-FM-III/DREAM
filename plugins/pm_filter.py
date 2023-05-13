@@ -61,7 +61,7 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_text("<b>🎗 If You Want Any Movie, Series Please Join Our Request Groups \n \n 🏆 Request Group: [Click Here 🎗](https://t.me/Moviesss4ers)</b>")
+    await message.reply_text("<b>🎗 If You Want Any Movie, Series Please Join Our Request Groups \n \n 🏆 Request Group: [Click Here 🎗](https://t.me/Filmy_Rog)</b>")
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
@@ -566,7 +566,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         reply_markup=InlineKeyboardMarkup(
                             [
                              [
-                              InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 🎬', url='https://t.me/moviesss4ers')
+                              InlineKeyboardButton('ᴊᴏɪɴ ғᴏʀ ᴍᴏʀᴇ 🎬', url='https://t.me/Filmy_Men')
+                                                  
                              ]
                             ]
                         )
@@ -611,7 +612,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 🎬', url='https://t.me/moviesss4ers')
+                  InlineKeyboardButton('ᴊᴏɪɴ ғᴏʀ ᴍᴏʀᴇ 🎬', url='https://t.me/filmy_men')
                  ]
                 ]
             )
@@ -975,14 +976,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('FIʟᴛᴇʀs', callback_data='filters'),
-            InlineKeyboardButton('Fɪʟᴇ Sᴛᴏʀᴇ', callback_data='store_file')
+            InlineKeyboardButton('ғɪʟᴛᴇʀs', callback_data='filters'),
+            InlineKeyboardButton('ғɪʟᴇ sᴛᴏʀᴇ', callback_data='store_file')
         ], [
-            InlineKeyboardButton('Cᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
-            InlineKeyboardButton('Exᴛʀᴀ Mᴏᴅs', callback_data='extra')
+            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
+            InlineKeyboardButton('ᴇxᴛʀᴀ ᴍᴏᴅs', callback_data='extra')
         ], [
-            InlineKeyboardButton('🏠 Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('📊 Sᴛᴀᴛᴜs', callback_data='stats')
+            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('📊 sᴛᴀᴛᴜs', callback_data='stats')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -998,11 +999,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Developer 😎', url='https://t.me/Nexus_Shubhu'),
-            InlineKeyboardButton('Source Code', callback_data='source')
+            InlineKeyboardButton('💕 ᴅᴇᴠᴇʟᴏᴘᴇʀ 😎', url='https://t.me/syrus_143_hpy'),
+            InlineKeyboardButton('💞 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🌺', callback_data='source')
         ],[
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🚪 Close it', callback_data='close_data')
+            InlineKeyboardButton('🏠 ʜᴏᴍᴇ ✨', callback_data='start'),
+            InlineKeyboardButton('🚪 ᴄʟᴏsᴇ ɪᴛ ❤', callback_data='close_data')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1017,7 +1018,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
+            InlineKeyboardButton('👩‍🦯 ʙᴀᴄᴋ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
