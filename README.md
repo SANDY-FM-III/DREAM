@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.jpg" alt="Eva Maria Logo">
+  <img src="https://telegra.ph/file/94c74580a918cb9e6b18e.jpg" alt="Eva Maria Logo">
 </p>
 <h1 align="center">
   <b>Nataliya Bot</b>
