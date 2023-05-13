@@ -4,21 +4,21 @@ class script(object):
 ɪ ᴀᴍ ᴅʀᴇᴀᴍ, ɴᴏᴛ ᴛʜᴀᴛ ʏᴏᴜᴛᴜʙᴇʀ\n\n ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs - ꜱᴇʀɪᴇꜱ ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs. ʏᴏᴜ ᴄᴀɴ sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇs ᴠɪᴀ ɪɴʟɪɴᴇ. ɪ ᴄᴀɴ ᴀʟsᴏ ᴀᴅᴅ ꜰɪʟᴛᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs. ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ😌\n\n 👇 ᴄʜᴇᴄᴋ ᴏᴜᴛ ᴀʙᴏᴠᴇ ʟɪɴᴋ 👇"""
 
     HELP_TXT = """<b>Tᴏ Sᴇᴛ Cᴜsᴛᴏᴍ Sʜᴏʀᴛᴇɴᴇʀ
-Cᴏɴᴛᴀᴄᴛ- @Nexus_shubhu
+Cᴏɴᴛᴀᴄᴛ- @Syrus_143_Hpy
 
 Cʜᴇᴄᴋ Tʜᴇꜱᴇ Hᴇʟᴘ Cᴏᴍᴍᴀɴᴅs 👇.</b>"""
 
-    ABOUT_TXT = """<b><i>👨‍💻 ᴏᴡɴᴇʀ : <a href=https://t.me/Nexus_Shubhu><b>𝗦𝗛𝗨𝗕𝗛𝗔𝗠</b></a>\n
+    ABOUT_TXT = """<b><i>👨‍💻 ᴏᴡɴᴇʀ : <a href=https://t.me/Syrus_143_hpy><b>亗 THE SAN∂MAN </b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org><b>ᴘʏᴛʜᴏɴ</b></a>\n
 📚 ʟɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram/pyrogram><b>ᴘʏʀᴏɢʀᴀᴍ</b></a>\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : <a href=vultr.com><b>ᴠᴘꜱ</b></a>\n
-© ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href=https://t.me/Moviesss4ers><b>ᴍᴏᴠɪᴇꜱꜱꜱ4ᴇʀꜱ</b></a>\n
+© ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href=https://t.me/Filmy_Men><b>ғɪʟᴍʏ ᴍᴇɴ</b></a>\n
 """
 
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
     
 » I will Create One Bot For You<b>
-» Contact @Nexus_Shubhu<b>"""
+» Contact @Syrus_143_Hpy<b>"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -100,7 +100,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 ★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
 
-★ Mᴀɪɴᴛᴀɪɴᴇʀ: <a href=https://t.me/Dengerous53><b>𝗦𝗬𝗢𝗞𝗢</b></a>"""
+★ Mᴀɪɴᴛᴀɪɴᴇʀ: <a href=https://t.me/Syrus_143_hpy><b>𝗦𝗬𝗢𝗞𝗢</b></a>"""
 
     LOG_TEXT_G = """#NewGroup
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
@@ -130,9 +130,9 @@ Nᴀᴍᴇ - {}"""
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : ꜱʜᴜʙʜᴀᴍ
-• ᴜꜱᴇʀɴᴀᴍᴇ : ɴᴇxᴜꜱ_ꜱʜᴜʙʜᴜ
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/Nexus_Shubhu'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : 亗 THE SAN∂MAN 
+• ᴜꜱᴇʀɴᴀᴍᴇ : @Syrus_143_Hpy
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/Syrus_143_hpy'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
 Always Request in Correct Spelling... check Spellings on Google ...
@@ -172,10 +172,10 @@ If You Still Don't Get Movies then Owner Will Update Within 12Hour"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>{file_name}</b> \n\n🏆 <i><b>Powered By » [Moviesss4ers](https://t.me/moviesss4ers)</i>"""
+    CAPTION = """<b>{file_name}</b> \n\n🏆 <i><b>Powered By » [ғɪʟᴍʏ ᴍᴇɴ](https://t.me/Filmy_men)</i>"""
 
     IMDB_TEMPLATE_TXT = """
-<b><i>💫 Title : <a href={url}>{title}</a>  ({year}) 🎭 Genres : {genres} 🌟 IMDB Rating: <a href={url}/ratings>{rating}</a> / 10   📌 [How To Download](https://t.me/RolexMoviesOX/55) </i></b>"""
+<b><i>💫 Title : <a href={url}>{title}</a>  ({year}) 🎭 Genres : {genres} 🌟 IMDB Rating: <a href={url}/ratings>{rating}</a> / 10   📌 [How To Download](https://t.me/HOW_TO_DOWNLOADDS/4) </i></b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
@@ -203,4 +203,4 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰Tɪᴍᴇ : <code>{}</code>
-🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/TamilNadu</code></b>"""
+🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/kolkata</code></b>"""
