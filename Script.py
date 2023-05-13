@@ -172,7 +172,15 @@ If You Still Don't Get Movies then Owner Will Update Within 12Hour"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>{file_name}</b> \n\n🏆 <i><b>Powered By » [ғɪʟᴍʏ ᴍᴇɴ](https://t.me/Filmy_men)</i>"""
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+
+╔═ ❁ ════════╗
+
+♡ <a href=https://t.me/Filmy_Men> @Filmy_Men</a>
+
+♡ <a href=https://t.me/Filmy_Rog>@Filmy_Rog </a>
+
+╚════════ ❁ ═╝</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b><i>💫 Title : <a href={url}>{title}</a>  ({year}) 🎭 Genres : {genres} 🌟 IMDB Rating: <a href={url}/ratings>{rating}</a> / 10   📌 [How To Download](https://t.me/HOW_TO_DOWNLOADDS/4) </i></b>"""
