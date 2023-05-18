@@ -100,7 +100,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 ★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
 
-★ Mᴀɪɴᴛᴀɪɴᴇʀ: <a href=https://t.me/Syrus_143_hpy><b>𝗦𝗬𝗢𝗞𝗢</b></a>"""
+★ Mᴀɪɴᴛᴀɪɴᴇʀ: <a href=https://t.me/Syrus_143_hpy><b>亗 THE SAN∂MAN</b></a>"""
 
     LOG_TEXT_G = """#NewGroup
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
